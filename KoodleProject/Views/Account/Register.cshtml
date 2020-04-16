@@ -1,0 +1,65 @@
+﻿@model Web.ViewModels.Account.RegisterViewModel
+@{
+    ViewData["Title"] = "Register";
+    Layout = "_AccountLayout";
+}
+<style>
+    body {
+        background-color: whitesmoke;
+        border: none;
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
+</style>
+
+<div class="form">
+    <h2 class="form__title">Register a new account</h2>
+    <form asp-action="Register" asp-route-returnUrl="@Model.ReturnUrl" asp-antiforgery="true" enctype="multipart/form-data">
+        <div asp-validation-summary="ModelOnly" class="form__error"></div>
+        <div class="form__group">
+            <input type="text" class="form__input" placeholder="User Name" asp-for="UserName" required />
+            <span asp-validation-for="UserName" class="form__error"></span>
+
+        </div>
+        <div class="form__group">
+            <input type="email" class="form__input" placeholder="Email" asp-for="EmailAddress" required />
+            <span asp-validation-for="EmailAddress" class="form__error"></span>
+
+        </div>
+        <div class="form__group">
+            <input type="text" class="form__input" placeholder="First Name" asp-for="FirstName" required />
+            <span asp-validation-for="FirstName" class="form__error"></span>
+
+        </div>
+        <div class="form__group">
+            <input type="text" class="form__input" placeholder="Last Name" asp-for="LastName" required />
+            <span asp-validation-for="LastName" class="form__error"></span>
+
+        </div>
+        <div class="form__group">
+            <input type="password" class="form__input" placeholder="Password" asp-for="Password" required />
+            <span asp-validation-for="Password" class="form__error"></span>
+
+        </div>
+        <div class="form__group">
+            <input type="password" class="form__input" placeholder="Confirm Password" asp-for="ConfirmPassword" required />
+            <span asp-validation-for="ConfirmPassword" class="form__error"></span>
+
+        </div>
+        <div class="form__group">
+            <input type="file" id="file" class="form__input-file js-inputfile" accept=".jpg,.jpeg,.png,.gif" asp-for="File" />
+            <label for="file"><i class="fa fa-user"></i>&nbsp; <span>Upload a profile picture</span></label>
+        </div>
+        <div class="form__group">
+            <input type="submit" class="btn btn-success btn-block btn-lg " value="Register" />
+        </div>
+    </form>
+
+    <div class="text-center">
+        <p>Already a member?  <a asp-action="Login">Login</a></p>
+    </div>
+</div>

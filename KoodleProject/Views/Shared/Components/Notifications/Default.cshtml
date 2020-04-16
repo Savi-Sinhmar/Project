@@ -1,0 +1,59 @@
+﻿@model Core.Models.NotificationTemplateModel
+<li class="nav-item dropdown" id="notifications">
+
+    <a class="nav-link dropdown-toggle"  data-toggle="dropdown" href="#" id="notificationsDropdown">
+
+        <i class="fa fa-bell" data-toggle="tooltip" data-placement="bottom" title="notifications"></i>
+        @if (Model.TotalUnReadNotifications > 0)
+        {
+            <span class="dropdown__badge notification-badge">@Model.TotalUnReadNotifications</span>
+        }
+        else
+        {
+            <span class="dropdown__badge notification-badge d-none"></span>
+        }
+    </a>
+
+    <ul class="dropdown__menu dropdown-menu" aria-labelledby="notificationsDropdown">
+        <li class="dropdown__body">
+            <ul class="dropdown__list miniNotificationContainer">
+                @if (Model.Notifications.Any())
+                {
+                    foreach (var notification in Model.Notifications)
+                    {
+                        @await Html.PartialAsync("Templates/_MiniNotification", notification)
+                    }
+                }
+                else
+                {
+                    <li class="dropdown__item text-center noMiniNotification">
+                        <span class="">You have no notifications.</span>
+                    </li>
+                }
+              
+              
+            </ul>
+        </li>
+        @if (Model.Notifications.Any())
+        {
+            <li class="dropdown__footer">
+                <a asp-controller="Notifications" asp-action="List"> View all</a>
+            </li>
+        }
+        else
+        {
+            <li class="dropdown__footer">
+                <a asp-controller="Notifications" asp-action="List">Notifications</a>
+            </li>
+        }
+        @if (Model.LoadMore)
+        {
+            <span class="d-none miniNotificationLoadMore">@Model.LoadMore</span>
+        }
+        else
+        {
+            <span class="d-none miniNotificationLoadMore"></span>
+        }
+
+    </ul>
+</li>

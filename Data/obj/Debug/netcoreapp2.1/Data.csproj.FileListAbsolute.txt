@@ -1,0 +1,97 @@
+C:\Users\savi1\Source\Repos\KoodleProject\Data\bin\Debug\netcoreapp2.1\Data.deps.json
+C:\Users\savi1\Source\Repos\KoodleProject\Data\bin\Debug\netcoreapp2.1\Data.dll
+C:\Users\savi1\Source\Repos\KoodleProject\Data\obj\Debug\netcoreapp2.1\Data.csproj.CoreCompileInputs.cache
+C:\Users\savi1\Source\Repos\KoodleProject\Data\obj\Debug\netcoreapp2.1\Data.AssemblyInfoInputs.cache
+C:\Users\savi1\Source\Repos\KoodleProject\Data\obj\Debug\netcoreapp2.1\Data.AssemblyInfo.cs
+C:\Users\savi1\Source\Repos\KoodleProject\Data\obj\Debug\netcoreapp2.1\Data.csprojAssemblyReference.cache
+C:\Users\savi1\Source\Repos\KoodleProject\Data\bin\Debug\netcoreapp2.1\Data.runtimeconfig.json
+C:\Users\savi1\Source\Repos\KoodleProject\Data\bin\Debug\netcoreapp2.1\Data.runtimeconfig.dev.json
+C:\Users\savi1\Source\Repos\KoodleProject\Data\bin\Debug\netcoreapp2.1\Core.dll
+C:\Users\savi1\Source\Repos\KoodleProject\Data\bin\Debug\netcoreapp2.1\Services.dll
+C:\Users\savi1\Source\Repos\KoodleProject\Data\bin\Debug\netcoreapp2.1\Core.pdb
+C:\Users\savi1\Source\Repos\KoodleProject\Data\bin\Debug\netcoreapp2.1\Services.pdb
+C:\Users\savi1\Source\Repos\KoodleProject\Data\obj\Debug\netcoreapp2.1\Data.csproj.CopyComplete
+C:\Users\savi1\Source\Repos\KoodleProject\Data\bin\Debug\netcoreapp2.1\Data.pdb
+C:\Users\savi1\Source\Repos\KoodleProject\Data\obj\Debug\netcoreapp2.1\Data.dll
+C:\Users\savi1\Source\Repos\KoodleProject\Data\obj\Debug\netcoreapp2.1\Data.pdb
+C:\Users\Harsh chaudhary\Downloads\KoodleProject (1)\KoodleProject\Data\bin\Debug\netcoreapp2.1\Data.deps.json
+C:\Users\Harsh chaudhary\Downloads\KoodleProject (1)\KoodleProject\Data\bin\Debug\netcoreapp2.1\Data.runtimeconfig.json
+C:\Users\Harsh chaudhary\Downloads\KoodleProject (1)\KoodleProject\Data\bin\Debug\netcoreapp2.1\Data.runtimeconfig.dev.json
+C:\Users\Harsh chaudhary\Downloads\KoodleProject (1)\KoodleProject\Data\bin\Debug\netcoreapp2.1\Data.dll
+C:\Users\Harsh chaudhary\Downloads\KoodleProject (1)\KoodleProject\Data\bin\Debug\netcoreapp2.1\Data.pdb
+C:\Users\Harsh chaudhary\Downloads\KoodleProject (1)\KoodleProject\Data\bin\Debug\netcoreapp2.1\Core.dll
+C:\Users\Harsh chaudhary\Downloads\KoodleProject (1)\KoodleProject\Data\bin\Debug\netcoreapp2.1\Services.dll
+C:\Users\Harsh chaudhary\Downloads\KoodleProject (1)\KoodleProject\Data\bin\Debug\netcoreapp2.1\Core.pdb
+C:\Users\Harsh chaudhary\Downloads\KoodleProject (1)\KoodleProject\Data\bin\Debug\netcoreapp2.1\Services.pdb
+C:\Users\Harsh chaudhary\Downloads\KoodleProject (1)\KoodleProject\Data\obj\Debug\netcoreapp2.1\Data.csprojAssemblyReference.cache
+C:\Users\Harsh chaudhary\Downloads\KoodleProject (1)\KoodleProject\Data\obj\Debug\netcoreapp2.1\Data.csproj.CoreCompileInputs.cache
+C:\Users\Harsh chaudhary\Downloads\KoodleProject (1)\KoodleProject\Data\obj\Debug\netcoreapp2.1\Data.AssemblyInfoInputs.cache
+C:\Users\Harsh chaudhary\Downloads\KoodleProject (1)\KoodleProject\Data\obj\Debug\netcoreapp2.1\Data.AssemblyInfo.cs
+C:\Users\Harsh chaudhary\Downloads\KoodleProject (1)\KoodleProject\Data\obj\Debug\netcoreapp2.1\Data.csproj.CopyComplete
+C:\Users\Harsh chaudhary\Downloads\KoodleProject (1)\KoodleProject\Data\obj\Debug\netcoreapp2.1\Data.dll
+C:\Users\Harsh chaudhary\Downloads\KoodleProject (1)\KoodleProject\Data\obj\Debug\netcoreapp2.1\Data.pdb
+C:\Users\savi1\Desktop\Pagalsi\KoodleProject\Data\bin\Debug\netcoreapp2.1\Data.deps.json
+C:\Users\savi1\Desktop\Pagalsi\KoodleProject\Data\bin\Debug\netcoreapp2.1\Data.runtimeconfig.json
+C:\Users\savi1\Desktop\Pagalsi\KoodleProject\Data\bin\Debug\netcoreapp2.1\Data.runtimeconfig.dev.json
+C:\Users\savi1\Desktop\Pagalsi\KoodleProject\Data\bin\Debug\netcoreapp2.1\Data.dll
+C:\Users\savi1\Desktop\Pagalsi\KoodleProject\Data\bin\Debug\netcoreapp2.1\Data.pdb
+C:\Users\savi1\Desktop\Pagalsi\KoodleProject\Data\bin\Debug\netcoreapp2.1\Core.dll
+C:\Users\savi1\Desktop\Pagalsi\KoodleProject\Data\bin\Debug\netcoreapp2.1\Services.dll
+C:\Users\savi1\Desktop\Pagalsi\KoodleProject\Data\bin\Debug\netcoreapp2.1\Core.pdb
+C:\Users\savi1\Desktop\Pagalsi\KoodleProject\Data\bin\Debug\netcoreapp2.1\Services.pdb
+C:\Users\savi1\Desktop\Pagalsi\KoodleProject\Data\obj\Debug\netcoreapp2.1\Data.csprojAssemblyReference.cache
+C:\Users\savi1\Desktop\Pagalsi\KoodleProject\Data\obj\Debug\netcoreapp2.1\Data.csproj.CoreCompileInputs.cache
+C:\Users\savi1\Desktop\Pagalsi\KoodleProject\Data\obj\Debug\netcoreapp2.1\Data.AssemblyInfoInputs.cache
+C:\Users\savi1\Desktop\Pagalsi\KoodleProject\Data\obj\Debug\netcoreapp2.1\Data.AssemblyInfo.cs
+C:\Users\savi1\Desktop\Pagalsi\KoodleProject\Data\obj\Debug\netcoreapp2.1\Data.csproj.CopyComplete
+C:\Users\savi1\Desktop\Pagalsi\KoodleProject\Data\obj\Debug\netcoreapp2.1\Data.dll
+C:\Users\savi1\Desktop\Pagalsi\KoodleProject\Data\obj\Debug\netcoreapp2.1\Data.pdb
+C:\Users\savi1\Desktop\FinalProjectKoodle\KoodleProject\Data\bin\Debug\netcoreapp2.1\Data.deps.json
+C:\Users\savi1\Desktop\FinalProjectKoodle\KoodleProject\Data\bin\Debug\netcoreapp2.1\Data.runtimeconfig.json
+C:\Users\savi1\Desktop\FinalProjectKoodle\KoodleProject\Data\bin\Debug\netcoreapp2.1\Data.runtimeconfig.dev.json
+C:\Users\savi1\Desktop\FinalProjectKoodle\KoodleProject\Data\bin\Debug\netcoreapp2.1\Data.dll
+C:\Users\savi1\Desktop\FinalProjectKoodle\KoodleProject\Data\bin\Debug\netcoreapp2.1\Data.pdb
+C:\Users\savi1\Desktop\FinalProjectKoodle\KoodleProject\Data\bin\Debug\netcoreapp2.1\Core.dll
+C:\Users\savi1\Desktop\FinalProjectKoodle\KoodleProject\Data\bin\Debug\netcoreapp2.1\Services.dll
+C:\Users\savi1\Desktop\FinalProjectKoodle\KoodleProject\Data\bin\Debug\netcoreapp2.1\Core.pdb
+C:\Users\savi1\Desktop\FinalProjectKoodle\KoodleProject\Data\bin\Debug\netcoreapp2.1\Services.pdb
+C:\Users\savi1\Desktop\FinalProjectKoodle\KoodleProject\Data\obj\Debug\netcoreapp2.1\Data.csprojAssemblyReference.cache
+C:\Users\savi1\Desktop\FinalProjectKoodle\KoodleProject\Data\obj\Debug\netcoreapp2.1\Data.csproj.CoreCompileInputs.cache
+C:\Users\savi1\Desktop\FinalProjectKoodle\KoodleProject\Data\obj\Debug\netcoreapp2.1\Data.AssemblyInfoInputs.cache
+C:\Users\savi1\Desktop\FinalProjectKoodle\KoodleProject\Data\obj\Debug\netcoreapp2.1\Data.AssemblyInfo.cs
+C:\Users\savi1\Desktop\FinalProjectKoodle\KoodleProject\Data\obj\Debug\netcoreapp2.1\Data.csproj.CopyComplete
+C:\Users\savi1\Desktop\FinalProjectKoodle\KoodleProject\Data\obj\Debug\netcoreapp2.1\Data.dll
+C:\Users\savi1\Desktop\FinalProjectKoodle\KoodleProject\Data\obj\Debug\netcoreapp2.1\Data.pdb
+C:\Users\dsp\Desktop\New folder (7)\FinalProjectKoodle\KoodleProject\Data\bin\Debug\netcoreapp2.1\Data.deps.json
+C:\Users\dsp\Desktop\New folder (7)\FinalProjectKoodle\KoodleProject\Data\bin\Debug\netcoreapp2.1\Data.runtimeconfig.json
+C:\Users\dsp\Desktop\New folder (7)\FinalProjectKoodle\KoodleProject\Data\bin\Debug\netcoreapp2.1\Data.runtimeconfig.dev.json
+C:\Users\dsp\Desktop\New folder (7)\FinalProjectKoodle\KoodleProject\Data\bin\Debug\netcoreapp2.1\Data.dll
+C:\Users\dsp\Desktop\New folder (7)\FinalProjectKoodle\KoodleProject\Data\bin\Debug\netcoreapp2.1\Data.pdb
+C:\Users\dsp\Desktop\New folder (7)\FinalProjectKoodle\KoodleProject\Data\bin\Debug\netcoreapp2.1\Core.dll
+C:\Users\dsp\Desktop\New folder (7)\FinalProjectKoodle\KoodleProject\Data\bin\Debug\netcoreapp2.1\Services.dll
+C:\Users\dsp\Desktop\New folder (7)\FinalProjectKoodle\KoodleProject\Data\bin\Debug\netcoreapp2.1\Core.pdb
+C:\Users\dsp\Desktop\New folder (7)\FinalProjectKoodle\KoodleProject\Data\bin\Debug\netcoreapp2.1\Services.pdb
+C:\Users\dsp\Desktop\New folder (7)\FinalProjectKoodle\KoodleProject\Data\obj\Debug\netcoreapp2.1\Data.csprojAssemblyReference.cache
+C:\Users\dsp\Desktop\New folder (7)\FinalProjectKoodle\KoodleProject\Data\obj\Debug\netcoreapp2.1\Data.csproj.CoreCompileInputs.cache
+C:\Users\dsp\Desktop\New folder (7)\FinalProjectKoodle\KoodleProject\Data\obj\Debug\netcoreapp2.1\Data.AssemblyInfoInputs.cache
+C:\Users\dsp\Desktop\New folder (7)\FinalProjectKoodle\KoodleProject\Data\obj\Debug\netcoreapp2.1\Data.AssemblyInfo.cs
+C:\Users\dsp\Desktop\New folder (7)\FinalProjectKoodle\KoodleProject\Data\obj\Debug\netcoreapp2.1\Data.csproj.CopyComplete
+C:\Users\dsp\Desktop\New folder (7)\FinalProjectKoodle\KoodleProject\Data\obj\Debug\netcoreapp2.1\Data.dll
+C:\Users\dsp\Desktop\New folder (7)\FinalProjectKoodle\KoodleProject\Data\obj\Debug\netcoreapp2.1\Data.pdb
+C:\Users\dsp\Desktop\New folder (7)\FinalProjectKoodle\KoodleProject\Data\obj\Debug\netcoreapp2.1\Data.genruntimeconfig.cache
+C:\Users\savi1\Documents\GitHub\grpkoodleproj\KoodleProject\Data\bin\Debug\netcoreapp2.1\Data.deps.json
+C:\Users\savi1\Documents\GitHub\grpkoodleproj\KoodleProject\Data\bin\Debug\netcoreapp2.1\Data.runtimeconfig.json
+C:\Users\savi1\Documents\GitHub\grpkoodleproj\KoodleProject\Data\bin\Debug\netcoreapp2.1\Data.runtimeconfig.dev.json
+C:\Users\savi1\Documents\GitHub\grpkoodleproj\KoodleProject\Data\bin\Debug\netcoreapp2.1\Data.dll
+C:\Users\savi1\Documents\GitHub\grpkoodleproj\KoodleProject\Data\bin\Debug\netcoreapp2.1\Data.pdb
+C:\Users\savi1\Documents\GitHub\grpkoodleproj\KoodleProject\Data\bin\Debug\netcoreapp2.1\Core.dll
+C:\Users\savi1\Documents\GitHub\grpkoodleproj\KoodleProject\Data\bin\Debug\netcoreapp2.1\Services.dll
+C:\Users\savi1\Documents\GitHub\grpkoodleproj\KoodleProject\Data\bin\Debug\netcoreapp2.1\Core.pdb
+C:\Users\savi1\Documents\GitHub\grpkoodleproj\KoodleProject\Data\bin\Debug\netcoreapp2.1\Services.pdb
+C:\Users\savi1\Documents\GitHub\grpkoodleproj\KoodleProject\Data\obj\Debug\netcoreapp2.1\Data.csprojAssemblyReference.cache
+C:\Users\savi1\Documents\GitHub\grpkoodleproj\KoodleProject\Data\obj\Debug\netcoreapp2.1\Data.csproj.CoreCompileInputs.cache
+C:\Users\savi1\Documents\GitHub\grpkoodleproj\KoodleProject\Data\obj\Debug\netcoreapp2.1\Data.AssemblyInfoInputs.cache
+C:\Users\savi1\Documents\GitHub\grpkoodleproj\KoodleProject\Data\obj\Debug\netcoreapp2.1\Data.AssemblyInfo.cs
+C:\Users\savi1\Documents\GitHub\grpkoodleproj\KoodleProject\Data\obj\Debug\netcoreapp2.1\Data.csproj.CopyComplete
+C:\Users\savi1\Documents\GitHub\grpkoodleproj\KoodleProject\Data\obj\Debug\netcoreapp2.1\Data.dll
+C:\Users\savi1\Documents\GitHub\grpkoodleproj\KoodleProject\Data\obj\Debug\netcoreapp2.1\Data.pdb

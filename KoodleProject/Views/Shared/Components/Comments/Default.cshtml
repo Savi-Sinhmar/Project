@@ -1,0 +1,32 @@
+﻿@model Web.ViewModels.Comments.CommentViewModel
+@inject IUserService UserService
+<div class="post__comments" id="post__comments-@(Model.PostId)">
+        @if (Model.LoadMore)
+        {
+            <div class="text-center p-2">
+                <a href="#" data-post-id="@Model.PostId" class="load-previous-comments-btn">
+                    <span class="d-none">2</span> View previous comments
+                </a>
+
+            </div>
+        }
+
+    <div class="post__comments-container-@(Model.PostId)">
+        @if (Model.Comments.Any())
+        {
+            <partial name="Templates/_Comment" model="Model"/>
+            <span class="d-none" id="comment-loadMore-@Model.PostId">@Model.LoadMore</span>
+        }
+    </div>
+
+    <div class="post__commenter">
+        <a asp-controller="Profile" asp-action="Profile" asp-route-username="@UserService.GetCurrentUserNameAsync()">
+            
+            <img src="@await UserService.GetUserProfilePictureAsync()" class="post__photo"/>
+            
+        </a>
+    </div>
+    <div class="post__comment-box">
+        <input type="text" class="post__comment-input" data-post-id="@Model.PostId" id="comment-@(Model.PostId)" placeholder="write on this post..."/>
+    </div>
+</div>

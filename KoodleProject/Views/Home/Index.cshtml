@@ -1,0 +1,63 @@
+﻿@model Web.ViewModels.Home.HomeModel
+
+@{
+    ViewBag.Title = "Home Page";
+    Layout = "_Layout";
+}
+
+<section class="home">
+
+    <div class="container">
+        <div class="row mt-2">
+         
+            <div class=" col-lg">
+                <div class="status">
+                    <form asp-controller="Home" asp-action="Create" method="post" enctype="multipart/form-data">
+                        <div class="mr-3 status__photo-box">
+                            <img src="@Model.UserProfilePicture" class="status__photo" width="50" height="50" />
+                        </div>
+
+                        <textarea class="form__input status__input" asp-for="Content" required placeholder="Say something here"></textarea>
+
+                        <div class="mt-3 clearfix">
+                            <input type="file" id="file" accept=".jpg,.jpeg,.png,.gif" class="form__input-file js-inputfile" asp-for="Files" data-multiple-caption="{count} files selected" multiple />
+                            <label for="file" class="u-margin-left-medium"><i class="fa fa-image"></i>&nbsp; <span>Photo</span></label>
+                            <div class="float-right">
+                                <button type="submit" class="button button--animated button--blue"><i class="fa fa-globe"></i> Post</button>
+                            </div>
+                        </div>
+
+                    </form>
+
+                </div>
+
+                <div class="row mt-3">
+                    <div class="col-12" id="post-container" data-url="/home/getposts">
+
+
+                    </div>
+
+                    @if (Model.PostLoadMore)
+                    {
+                        <span class="d-none" id="post-loadMore">@Model.PostLoadMore</span>
+                    }
+                    else
+                    {
+                        <span class="d-none" id="post-loadMore"></span>
+                    }
+
+                </div>
+
+            </div>
+            <div class="col-md-3">
+
+
+                @await Component.InvokeAsync("SuggestedFriends")
+            </div>
+
+        </div>
+
+    </div>
+
+    
+</section>

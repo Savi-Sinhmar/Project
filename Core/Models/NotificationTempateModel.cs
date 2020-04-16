@@ -1,0 +1,14 @@
+﻿using System.Collections.Generic;
+using Core.Domain.Notifications;
+
+namespace Core.Models
+{
+    public class NotificationTemplateModel
+    {
+        public bool LoadMore { get; set; }
+        
+        public IEnumerable<Notification> Notifications { get; set; }
+
+        public int TotalUnReadNotifications { get; set; }
+    }
+}

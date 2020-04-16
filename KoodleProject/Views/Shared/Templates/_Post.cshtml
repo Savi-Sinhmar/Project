@@ -1,0 +1,85 @@
+﻿@model Web.ViewModels.Templates.PostTemplateModel
+@inject IPostService PostService
+
+@if (Model.Posts.Any())
+{
+    foreach (var post in Model.Posts)
+    {
+        <div class="post">
+            <div class="post__content">
+                <div class="post__photo-box">
+                    <a asp-controller="Profile" asp-action="Profile" asp-route-username="@post.CreatedBy.UserName">
+
+                        <img class="post__photo" alt="@post.Id image" src="@post.CreatedBy.GetProfilePicture()"/>
+                    </a>
+                </div>
+
+                <div class="post__text-container">
+                    <h2 class="post__author d-inline-block">
+                        <a asp-controller="Profile" asp-action="Profile" asp-route-username="@post.CreatedBy.UserName">
+                            @post.CreatedBy.FullName
+                        </a>
+                    </h2>
+                    <time class="d-inline-block pull-right post__time timeago" datetime="@post.CreatedOn.ToString("o")"></time>
+                    <p class="post__text"> @post.Content</p>
+                </div>
+                @foreach (var photo in post.Photos)
+                {
+                    <img src="~/uploads/posts/@photo.FileName" class="p-1 w-100 d-block" data-overlay/>
+                }
+
+            </div>
+            <div class="d-flex justify-content-between post__icons">
+                <div>
+                    <i class="fa fa-thumbs-o-up"></i>
+                    @if (!await PostService.HasUserLikePostAsync(post.Id))
+                    {
+                        <a href="#" class="post__like-icon" data-post-id="@(post.Id)">
+                            Like
+                        </a>
+
+                        <span class="like-count-@(post.Id)">(@post.Likes.Count())</span>
+                    }
+                    else
+                    {
+                        <a href="#" class="post__like-icon post__like-icon--is-liked" data-post-id="@(post.Id)">
+                            Liked
+                        </a>
+
+                        /*When the user and many peole have liked the post*/
+                        if (post.Likes.Count() > 2)
+                        {
+                            <span class="like-count-@(post.Id)">(you and @(post.Likes.Count() - 1) people)</span>
+                        }
+                    
+                        /*when the user and only one person has liked the post*/
+                        else if (post.Likes.Count() - 1 == 1)
+                        {
+                            <span class="like-count-@(post.Id)">(you and @(post.Likes.Count() - 1) person)</span>
+                        }
+                        //Only the user has liked the post
+                        else
+                        {
+                            <span class="like-count-@(post.Id)">(@(post.Likes.Count()))</span>
+                        }
+                    }
+
+                </div>
+                <div>
+                    <a href="#" class="post__comment-icon" data-comments-target="#post__comments-@(post.Id)">
+                        <i class="fa fa-comment-o"></i> Comments
+
+                    </a>
+                    
+                    <span class="comment-count-@(post.Id)">(@post.Comments.Count)</span>
+                </div>
+            </div>
+            @await Component.InvokeAsync("Comments", new {postId = post.Id})
+        </div>
+    }
+}
+
+else
+{
+    <div class="post"><div class="post__content text-center"><h4 style="font-size: 1.6rem">No post is available.</h4></div></div>
+}

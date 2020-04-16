@@ -1,0 +1,29 @@
+﻿using System.Linq;
+using System.Threading.Tasks;
+using Core.Domain.Users;
+
+namespace Services.Users
+{
+    public interface IUserService
+    {
+        Task<User> GetUserByIdAsync(string userId);
+
+        Task<User> GetUserByUserNameAsync(string username);
+
+        Task<string> GetCurrentUserIdAsync();
+
+        Task<string> GetCurrentUserNameAsync();
+
+        Task<IQueryable<User>> GetAllUsersExceptCurrentUser();
+
+        Task<User> GetUserWithFriendsAsync(string userId = null);
+
+        Task<string> GetUserProfilePictureAsync();
+
+        Task<bool> IsProfilePageForCurrentUserAsync(string username);
+
+        Task InsertUserSettingAsync(UserSetting userSetting);
+
+        Task<UserSetting> GetUserSettingUserIdAsync(string id = null);
+    }
+}

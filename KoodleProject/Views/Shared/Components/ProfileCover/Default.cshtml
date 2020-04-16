@@ -1,0 +1,44 @@
+﻿@using Core.Helpers
+@model Web.ViewModels.Profile.ProfileCoverViewModel
+@inject CommonHelper CommonHelper
+@inject IUserService UserService
+
+<div class="profile__cover">
+    <img src="@Model.ProfileCoverPicture" class="profile__bg-img"/>
+
+    <div class="profile__info">
+        <img src="@Model.ProfilePicture" class="profile__photo" alt="Profile-Picture"/>
+        <h2 class="profile__title">@Model.FullName</h2>
+        @if (!string.IsNullOrEmpty(Model.Description))
+        {
+            <p class="profile__description">
+                @Model.Description
+            </p>
+        }
+    </div>
+
+    @if (!await UserService.IsProfilePageForCurrentUserAsync(CommonHelper.GetUserNameFromUrl()))
+    {
+        if (Model.IsFollowingUser)
+        {
+            <div class="profile__follow">
+                <a class="profile__follow-btn profile__follow--is-following" data-followee-username="@CommonHelper.GetUserNameFromUrl()">
+                    <span>Following</span>
+
+                </a>
+            </div>
+        }
+        else
+        {
+            <div class="profile__follow">
+                <a class="profile__follow-btn" data-followee-username="@CommonHelper.GetUserNameFromUrl()">
+                    <i class="fa fa-user-plus"></i>
+                    <span>Follow me</span>
+
+                </a>
+            </div>
+        }
+    }
+
+</div>
+

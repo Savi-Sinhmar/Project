@@ -1,0 +1,19 @@
+﻿@using Core.Helpers
+@inject CommonHelper CommonHelper
+
+@{
+    Layout = "_Layout";
+}
+
+<section class="profile">
+
+    @await Component.InvokeAsync("ProfileCover", CommonHelper.GetUserNameFromUrl())
+    
+    <div class="container">
+        <div class="row"style="padding-top:10px;">
+            @RenderBody()
+            
+
+        </div>
+    </div>
+</section>

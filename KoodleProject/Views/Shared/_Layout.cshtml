@@ -1,0 +1,109 @@
+﻿@inject IUserService UserService
+@{
+    var user = await UserService.GetUserByIdAsync(await UserService.GetCurrentUserIdAsync());
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="~/assets/styles/bootstrap.css" asp-append-version="true"/>
+    <link rel="stylesheet" href="~/assets/styles/font-awesome.css"/>
+    <link rel="stylesheet" href="~/assets/styles/emojionearea.css"/>
+    <link rel="stylesheet" href="~/assets/styles/styles.css" asp-append-version="true"/>
+    <title>@ViewData["Title"] - Koodle</title>
+</head>
+<body>
+<div class="img-overlay">
+    <div class="img-overlay__photo-box">
+        <img src="" class="img-overlay__photo" alt="overlay"/>
+    </div>
+    <span class="img-overlay__close"> &times;</span>
+</div>
+<header>
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light navigation">
+        <div class="container">
+            <div class="collapse navbar-collapse">
+
+                <a class="navbar-brand" asp-controller="Home" asp-action="Index">KOODLE</a>
+
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item navigation__item">
+                        <a class="nav-link" asp-controller="Profile"  asp-action="Profile" asp-route-username="@user.UserName">
+                            <img src="@user.GetProfilePicture()" class="navigation__profile-pic"/>
+                            <span class="navigation__profile-name">@user.FullName</span>
+                        </a>
+                    </li>
+                    @await Component.InvokeAsync("Notifications")
+
+              
+
+                    <li class="nav-item navigation__item">
+                        <a class="nav-link" asp-controller="Friend" title="friends" asp-action="List">
+                            <i class="fa fa-users"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#"  class="nav-link dropdown-toggle" id="settingsDropdown" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false" role="button">
+                            <i class="fa fa-cog" data-toggle="tooltip" data-placement="bottom" title="settings"></i>  <i class="fa fa-caret-down"></i>
+                        </a>
+                        
+                        <ul class="dropdown-menu dropdown__menu " aria-labelledby="settingsDropdown">
+                            <li><a asp-controller="Settings" asp-action="Basic" class="dropdown-item">Settings</a></li>
+                            <li><a href="#" id="logOut" class="dropdown-item">Log out</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<main>
+    @RenderBody()
+
+</main>
+<footer>
+    <div class="footer">
+        <div class="footer-content navbar navbar-expand-lg">
+            <ul class="navbar-nav">
+                <li class="navbar-item">
+                    <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="about">About us</a>
+
+                </li>
+                <li class="navbar-item">
+
+                    <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Contact">Contact us</a>
+                </li>
+
+
+            </ul>
+        </div>
+        
+
+        <div class="footer-buttom ">
+            &copy;Koodle.com
+
+        </div>
+
+
+
+    </div>
+  
+</footer>
+<div class="loader">
+    <div class="loader__content">
+        
+    <img class="loader__icon" src="~/assets/images/spinner.svg" alt="Spinner"/>
+    </div>
+</div>
+<partial name="_AntiForgery"/>
+<script type="text/javascript" src="~/assets/scripts/manifest.bundle.js" asp-append-version="true"></script>
+<script type="text/javascript" src="~/assets/scripts/vendor.bundle.js" asp-append-version="true"></script>
+<script type="text/javascript" src="~/assets/scripts/app.bundle.js" asp-append-version="true"></script>
+</body>
+</html>

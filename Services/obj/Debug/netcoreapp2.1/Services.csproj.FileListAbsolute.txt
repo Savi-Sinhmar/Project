@@ -1,0 +1,72 @@
+C:\Users\savi1\Source\Repos\KoodleProject\Services\bin\Debug\netcoreapp2.1\Services.deps.json
+C:\Users\savi1\Source\Repos\KoodleProject\Services\bin\Debug\netcoreapp2.1\Services.dll
+C:\Users\savi1\Source\Repos\KoodleProject\Services\obj\Debug\netcoreapp2.1\Services.csproj.CoreCompileInputs.cache
+C:\Users\savi1\Source\Repos\KoodleProject\Services\obj\Debug\netcoreapp2.1\Services.AssemblyInfoInputs.cache
+C:\Users\savi1\Source\Repos\KoodleProject\Services\obj\Debug\netcoreapp2.1\Services.AssemblyInfo.cs
+C:\Users\savi1\Source\Repos\KoodleProject\Services\obj\Debug\netcoreapp2.1\Services.csprojAssemblyReference.cache
+C:\Users\savi1\Source\Repos\KoodleProject\Services\bin\Debug\netcoreapp2.1\Services.pdb
+C:\Users\savi1\Source\Repos\KoodleProject\Services\bin\Debug\netcoreapp2.1\Core.dll
+C:\Users\savi1\Source\Repos\KoodleProject\Services\bin\Debug\netcoreapp2.1\Core.pdb
+C:\Users\savi1\Source\Repos\KoodleProject\Services\obj\Debug\netcoreapp2.1\Services.csproj.CopyComplete
+C:\Users\savi1\Source\Repos\KoodleProject\Services\obj\Debug\netcoreapp2.1\Services.dll
+C:\Users\savi1\Source\Repos\KoodleProject\Services\obj\Debug\netcoreapp2.1\Services.pdb
+C:\Users\Harsh chaudhary\Downloads\KoodleProject (1)\KoodleProject\Services\bin\Debug\netcoreapp2.1\Services.deps.json
+C:\Users\Harsh chaudhary\Downloads\KoodleProject (1)\KoodleProject\Services\bin\Debug\netcoreapp2.1\Services.dll
+C:\Users\Harsh chaudhary\Downloads\KoodleProject (1)\KoodleProject\Services\bin\Debug\netcoreapp2.1\Services.pdb
+C:\Users\Harsh chaudhary\Downloads\KoodleProject (1)\KoodleProject\Services\bin\Debug\netcoreapp2.1\Core.dll
+C:\Users\Harsh chaudhary\Downloads\KoodleProject (1)\KoodleProject\Services\bin\Debug\netcoreapp2.1\Core.pdb
+C:\Users\Harsh chaudhary\Downloads\KoodleProject (1)\KoodleProject\Services\obj\Debug\netcoreapp2.1\Services.csprojAssemblyReference.cache
+C:\Users\Harsh chaudhary\Downloads\KoodleProject (1)\KoodleProject\Services\obj\Debug\netcoreapp2.1\Services.csproj.CoreCompileInputs.cache
+C:\Users\Harsh chaudhary\Downloads\KoodleProject (1)\KoodleProject\Services\obj\Debug\netcoreapp2.1\Services.AssemblyInfoInputs.cache
+C:\Users\Harsh chaudhary\Downloads\KoodleProject (1)\KoodleProject\Services\obj\Debug\netcoreapp2.1\Services.AssemblyInfo.cs
+C:\Users\Harsh chaudhary\Downloads\KoodleProject (1)\KoodleProject\Services\obj\Debug\netcoreapp2.1\Services.csproj.CopyComplete
+C:\Users\Harsh chaudhary\Downloads\KoodleProject (1)\KoodleProject\Services\obj\Debug\netcoreapp2.1\Services.dll
+C:\Users\Harsh chaudhary\Downloads\KoodleProject (1)\KoodleProject\Services\obj\Debug\netcoreapp2.1\Services.pdb
+C:\Users\savi1\Desktop\Pagalsi\KoodleProject\Services\bin\Debug\netcoreapp2.1\Services.deps.json
+C:\Users\savi1\Desktop\Pagalsi\KoodleProject\Services\bin\Debug\netcoreapp2.1\Services.dll
+C:\Users\savi1\Desktop\Pagalsi\KoodleProject\Services\bin\Debug\netcoreapp2.1\Services.pdb
+C:\Users\savi1\Desktop\Pagalsi\KoodleProject\Services\bin\Debug\netcoreapp2.1\Core.dll
+C:\Users\savi1\Desktop\Pagalsi\KoodleProject\Services\bin\Debug\netcoreapp2.1\Core.pdb
+C:\Users\savi1\Desktop\Pagalsi\KoodleProject\Services\obj\Debug\netcoreapp2.1\Services.csprojAssemblyReference.cache
+C:\Users\savi1\Desktop\Pagalsi\KoodleProject\Services\obj\Debug\netcoreapp2.1\Services.csproj.CoreCompileInputs.cache
+C:\Users\savi1\Desktop\Pagalsi\KoodleProject\Services\obj\Debug\netcoreapp2.1\Services.AssemblyInfoInputs.cache
+C:\Users\savi1\Desktop\Pagalsi\KoodleProject\Services\obj\Debug\netcoreapp2.1\Services.AssemblyInfo.cs
+C:\Users\savi1\Desktop\Pagalsi\KoodleProject\Services\obj\Debug\netcoreapp2.1\Services.csproj.CopyComplete
+C:\Users\savi1\Desktop\Pagalsi\KoodleProject\Services\obj\Debug\netcoreapp2.1\Services.dll
+C:\Users\savi1\Desktop\Pagalsi\KoodleProject\Services\obj\Debug\netcoreapp2.1\Services.pdb
+C:\Users\savi1\Desktop\FinalProjectKoodle\KoodleProject\Services\bin\Debug\netcoreapp2.1\Services.deps.json
+C:\Users\savi1\Desktop\FinalProjectKoodle\KoodleProject\Services\bin\Debug\netcoreapp2.1\Services.dll
+C:\Users\savi1\Desktop\FinalProjectKoodle\KoodleProject\Services\bin\Debug\netcoreapp2.1\Services.pdb
+C:\Users\savi1\Desktop\FinalProjectKoodle\KoodleProject\Services\bin\Debug\netcoreapp2.1\Core.dll
+C:\Users\savi1\Desktop\FinalProjectKoodle\KoodleProject\Services\bin\Debug\netcoreapp2.1\Core.pdb
+C:\Users\savi1\Desktop\FinalProjectKoodle\KoodleProject\Services\obj\Debug\netcoreapp2.1\Services.csprojAssemblyReference.cache
+C:\Users\savi1\Desktop\FinalProjectKoodle\KoodleProject\Services\obj\Debug\netcoreapp2.1\Services.csproj.CoreCompileInputs.cache
+C:\Users\savi1\Desktop\FinalProjectKoodle\KoodleProject\Services\obj\Debug\netcoreapp2.1\Services.AssemblyInfoInputs.cache
+C:\Users\savi1\Desktop\FinalProjectKoodle\KoodleProject\Services\obj\Debug\netcoreapp2.1\Services.AssemblyInfo.cs
+C:\Users\savi1\Desktop\FinalProjectKoodle\KoodleProject\Services\obj\Debug\netcoreapp2.1\Services.csproj.CopyComplete
+C:\Users\savi1\Desktop\FinalProjectKoodle\KoodleProject\Services\obj\Debug\netcoreapp2.1\Services.dll
+C:\Users\savi1\Desktop\FinalProjectKoodle\KoodleProject\Services\obj\Debug\netcoreapp2.1\Services.pdb
+C:\Users\dsp\Desktop\New folder (7)\FinalProjectKoodle\KoodleProject\Services\bin\Debug\netcoreapp2.1\Services.deps.json
+C:\Users\dsp\Desktop\New folder (7)\FinalProjectKoodle\KoodleProject\Services\bin\Debug\netcoreapp2.1\Services.dll
+C:\Users\dsp\Desktop\New folder (7)\FinalProjectKoodle\KoodleProject\Services\bin\Debug\netcoreapp2.1\Services.pdb
+C:\Users\dsp\Desktop\New folder (7)\FinalProjectKoodle\KoodleProject\Services\bin\Debug\netcoreapp2.1\Core.dll
+C:\Users\dsp\Desktop\New folder (7)\FinalProjectKoodle\KoodleProject\Services\bin\Debug\netcoreapp2.1\Core.pdb
+C:\Users\dsp\Desktop\New folder (7)\FinalProjectKoodle\KoodleProject\Services\obj\Debug\netcoreapp2.1\Services.csprojAssemblyReference.cache
+C:\Users\dsp\Desktop\New folder (7)\FinalProjectKoodle\KoodleProject\Services\obj\Debug\netcoreapp2.1\Services.csproj.CoreCompileInputs.cache
+C:\Users\dsp\Desktop\New folder (7)\FinalProjectKoodle\KoodleProject\Services\obj\Debug\netcoreapp2.1\Services.AssemblyInfoInputs.cache
+C:\Users\dsp\Desktop\New folder (7)\FinalProjectKoodle\KoodleProject\Services\obj\Debug\netcoreapp2.1\Services.AssemblyInfo.cs
+C:\Users\dsp\Desktop\New folder (7)\FinalProjectKoodle\KoodleProject\Services\obj\Debug\netcoreapp2.1\Services.csproj.CopyComplete
+C:\Users\dsp\Desktop\New folder (7)\FinalProjectKoodle\KoodleProject\Services\obj\Debug\netcoreapp2.1\Services.dll
+C:\Users\dsp\Desktop\New folder (7)\FinalProjectKoodle\KoodleProject\Services\obj\Debug\netcoreapp2.1\Services.pdb
+C:\Users\savi1\Documents\GitHub\grpkoodleproj\KoodleProject\Services\bin\Debug\netcoreapp2.1\Services.deps.json
+C:\Users\savi1\Documents\GitHub\grpkoodleproj\KoodleProject\Services\bin\Debug\netcoreapp2.1\Services.dll
+C:\Users\savi1\Documents\GitHub\grpkoodleproj\KoodleProject\Services\bin\Debug\netcoreapp2.1\Services.pdb
+C:\Users\savi1\Documents\GitHub\grpkoodleproj\KoodleProject\Services\bin\Debug\netcoreapp2.1\Core.dll
+C:\Users\savi1\Documents\GitHub\grpkoodleproj\KoodleProject\Services\bin\Debug\netcoreapp2.1\Core.pdb
+C:\Users\savi1\Documents\GitHub\grpkoodleproj\KoodleProject\Services\obj\Debug\netcoreapp2.1\Services.csprojAssemblyReference.cache
+C:\Users\savi1\Documents\GitHub\grpkoodleproj\KoodleProject\Services\obj\Debug\netcoreapp2.1\Services.csproj.CoreCompileInputs.cache
+C:\Users\savi1\Documents\GitHub\grpkoodleproj\KoodleProject\Services\obj\Debug\netcoreapp2.1\Services.AssemblyInfoInputs.cache
+C:\Users\savi1\Documents\GitHub\grpkoodleproj\KoodleProject\Services\obj\Debug\netcoreapp2.1\Services.AssemblyInfo.cs
+C:\Users\savi1\Documents\GitHub\grpkoodleproj\KoodleProject\Services\obj\Debug\netcoreapp2.1\Services.csproj.CopyComplete
+C:\Users\savi1\Documents\GitHub\grpkoodleproj\KoodleProject\Services\obj\Debug\netcoreapp2.1\Services.dll
+C:\Users\savi1\Documents\GitHub\grpkoodleproj\KoodleProject\Services\obj\Debug\netcoreapp2.1\Services.pdb
